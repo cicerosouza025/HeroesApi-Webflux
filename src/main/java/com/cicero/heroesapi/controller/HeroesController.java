@@ -1,6 +1,7 @@
 package com.cicero.heroesapi.controller;
 
 import com.cicero.heroesapi.service.HeroesService;
+import com.cicero.heroesapi.repository.HeroesRepository;
 import com.cicero.heroesapi.model.Heroes;
 import lombok.RequiredArgsConstructor;
 

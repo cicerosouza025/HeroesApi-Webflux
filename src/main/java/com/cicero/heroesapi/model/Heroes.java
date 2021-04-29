@@ -8,8 +8,10 @@ import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBTable;
 
 
 @Data
-@Builder
+@Getter
+@Setter
 @NoArgsConstructor
+@AllArgsConstructor
 @DynamoDBTable(tableName = "Heroes_Table")
 public class Heroes {
 
